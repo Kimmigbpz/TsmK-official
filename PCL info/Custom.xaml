@@ -1,0 +1,80 @@
+
+<!--  -->
+    
+<local:MyCard Title="Minecraft GB生电服公告 | 2022.4.1更新">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,5" TextWrapping="Wrap"
+                   Text="服务器已经恢复正常运行 希望更多玩家回归此服  服务器管理：engxin，JZYU，Scattered_leaves" 
+                   />
+                   
+         <local:MyTextButton Margin="270,10,0,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" 
+                   Text="刷新主页" EventType="刷新主页" />
+    </StackPanel>
+</local:MyCard>
+   
+<local:MyCard Title="实用工具" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="Tsmk World" EventType="打开网页" EventData="https://tsmk.world:15000" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="Tsmk Web Map" EventType="打开网页" EventData="https://map.tsmk.world:15000/" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="Tsmk.gethub论坛" EventType="打开网页" EventData="https://github.com/Kimmigbpz/TsmK-Union-official/discussions" />
+        </StackPanel>
+        <!-- 这是第二行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="获取生电服地址" EventType="复制文本" EventData="survival.tsmk.world" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="下载生电服mods" EventType="下载文件" EventData="https://gg.tsmk.world:15000/mods.zip" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="赞助发电" EventType="打开网页" EventData="https://afdian.net/a/kimmi" />
+        </StackPanel>
+        <!--这是第三行-->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+        Text="获取机动服地址"  EventType="打开网页" EventData="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" />
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+        Text="下载机动服mods"  EventType="下载文件" EventData="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" />
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+        Text="Minecraft Wiki"  EventType="打开网页" EventData="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" />
+
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Minecraft GB服管理员" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyListItem Margin="0,0,0,4" 
+		                  Title="GBPZKimmi" Logo="https://gg.tsmk.world:15000/tietu1.png" />
+        <local:MyListItem Margin="0,0,0,6" 
+		                  Title="Scattered_leaves" Logo="https://gg.tsmk.world:15000/tietu2.png" />
+        <local:MyListItem Margin="0,0,0,10" 
+		                  Title="engXin" Logo="https://gg.tsmk.world:15000/tietu2.png" />
+        <local:MyListItem Margin="0,0,0,14" 
+		                  Title="VJZYU2008" Logo="https://gg.tsmk.world:15000/tietu2.png" />
+    </StackPanel>
+</local:MyCard>
+ 
+<local:MyCard Title="Minecraft GB生电服封禁表单" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Foreground="#ff1010" TextWrapping="Wrap"
+                   Text="Menory_Toame" />
+        <TextBlock Margin="0,0,0,4" Foreground="#ff1010" TextWrapping="Wrap"
+                   Text="xiao_feng_nb" />
+        <TextBlock Margin="0,0,0,4" Foreground="#ff1010" TextWrapping="Wrap"
+                   Text=""/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Minecraft GB 6月服赞助鸣谢" CanSwap="True" IsSwaped="True">
+    
+    <StackPanel Margin="25,40,23,15">
+        <!--
+        <TextBlock Margin="0,0,0,4" Foreground="#00BFFF" TextWrapping="Wrap"
+                   Text="1. xp_piglin 10¥" />
+        -->
+    </StackPanel>
+    
+</local:MyCard>
